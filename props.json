@@ -1,0 +1,56 @@
+{
+    "core": {
+        "id": "d9e2ed71-6b83-5677-be88-c92916816906",
+        "name": "mtb-template-cat5",
+        "version": "1.0.0.41337"
+    },
+    "opt": {
+        "props": {
+            "TemplateData": {
+                "55500A1": {
+                    "defines": "cat5_defines",
+                    "deps": "cat5_dependencies",
+                    "files": [
+                        "filelist/cat5.txt"
+                    ],
+                    "files_init": "files_init/cat5.txt"
+                },
+                "55900A0": {
+                    "defines": "cat5_defines",
+                    "deps": "cat5_dependencies",
+                    "files": [
+                        "filelist/cat5.txt"
+                    ],
+                    "files_init": "files_init/cat5.txt"
+                },
+                "udd_key": "DeviceDie"
+            },
+            "define_sets": {
+                "cat5_defines": [
+                    {
+                        "description": "Option to indicate that the Hardware Abstraction Layer APIs are expected to be used. This will cause the BSP to add calls to initialize the system functions.",
+                        "display": "Using HAL interface",
+                        "options": [
+                            {
+                                "default": false,
+                                "define": "CY_USING_HAL",
+                                "display": "CY_USING_HAL",
+                                "value": ""
+                            }
+                        ],
+                        "type": "choice"
+                    }
+                ]
+            },
+            "dependency_sets": {
+                "cat5_dependencies": [
+                    "deps/core-lib.mtbx",
+                    "deps/core-make.mtbx",
+                    "deps/mtb-hal-cat5.mtbx",
+                    "deps/mtb-pdl-cat5.mtbx",
+                    "deps/recipe-make-cat5.mtbx"
+                ]
+            }
+        }
+    }
+}
