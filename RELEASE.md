@@ -1,6 +1,8 @@
 # ModusToolbox CAT5 BSP Template Library Release Notes
 
 ### What Changed?
+#### v1.0.1
+Added support for Power mode selection.
 #### v1.0.0
 Initial release
 
