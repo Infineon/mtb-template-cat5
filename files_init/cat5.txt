@@ -1,3 +1,0 @@
-files_init/props.json:props.json
-files_init/bsp.mk:bsp.mk
-files_init/design.modus:config/design.modus

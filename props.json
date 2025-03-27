@@ -2,26 +2,26 @@
     "core": {
         "id": "d9e2ed71-6b83-5677-be88-c92916816906",
         "name": "mtb-template-cat5",
-        "version": "1.0.1.43895"
+        "version": "2.0.0.45678"
     },
     "opt": {
         "props": {
             "TemplateData": {
                 "55500A1": {
                     "defines": "cat5_defines",
-                    "deps": "cat5_dependencies",
+                    "deps": "555xxxx_dependencies",
                     "files": [
                         "filelist/cat5.txt"
                     ],
-                    "files_init": "files_init/cat5.txt"
+                    "files_init": "files_init/555xxxx.txt"
                 },
                 "55900A0": {
                     "defines": "cat5_defines",
-                    "deps": "cat5_dependencies",
+                    "deps": "559xxxx_dependencies",
                     "files": [
                         "filelist/cat5.txt"
                     ],
-                    "files_init": "files_init/cat5.txt"
+                    "files_init": "files_init/559xxxx.txt"
                 },
                 "udd_key": "DeviceDie"
             },
@@ -43,11 +43,18 @@
                 ]
             },
             "dependency_sets": {
-                "cat5_dependencies": [
+                "555xxxx_dependencies": [
                     "deps/core-lib.mtbx",
                     "deps/core-make.mtbx",
-                    "deps/mtb-hal-cat5.mtbx",
-                    "deps/mtb-pdl-cat5.mtbx",
+                    "deps/555xxxx/mtb-hal-cat5.mtbx",
+                    "deps/555xxxx/mtb-pdl-cat5.mtbx",
+                    "deps/recipe-make-cat5.mtbx"
+                ],
+                "559xxxx_dependencies": [
+                    "deps/core-lib.mtbx",
+                    "deps/core-make.mtbx",
+                    "deps/559xxxx/mtb-hal-cat5.mtbx",
+                    "deps/559xxxx/mtb-pdl-cat5.mtbx",
                     "deps/recipe-make-cat5.mtbx"
                 ]
             }
