@@ -1,0 +1,8 @@
+files/templates/TOOLCHAIN_GCC_ARM/55900A0_direct_load_ram.ld:TOOLCHAIN_GCC_ARM/55900A0_direct_load_ram.ld
+files/templates/TOOLCHAIN_GCC_ARM/55900A0_flash.ld:TOOLCHAIN_GCC_ARM/55900A0_flash.ld
+files/templates/TOOLCHAIN_GCC_ARM/55900A0_psram.ld:TOOLCHAIN_GCC_ARM/55900A0_psram.ld
+files/templates/TOOLCHAIN_GCC_ARM/55900A0_ram.ld:TOOLCHAIN_GCC_ARM/55900A0_ram.ld
+files/templates/TOOLCHAIN_ARM/55900A0_direct_load_ram.sct:TOOLCHAIN_ARM/55900A0_direct_load_ram.sct
+files/templates/TOOLCHAIN_ARM/55900A0_flash.sct:TOOLCHAIN_ARM/55900A0_flash.sct
+files/templates/TOOLCHAIN_ARM/55900A0_psram.sct:TOOLCHAIN_ARM/55900A0_psram.sct
+files/templates/TOOLCHAIN_ARM/55900A0_ram.sct:TOOLCHAIN_ARM/55900A0_ram.sct

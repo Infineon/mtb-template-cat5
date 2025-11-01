@@ -1,6 +1,8 @@
 # ModusToolbox CAT5 BSP Template Library Release Notes
 
 ### What Changed?
+#### v3.0.0
+Updated support for psram.
 #### v2.0.0
 Updated dependencies for mtb-hal-cat5 and mtb-pdl-cat5.
 #### v1.0.1

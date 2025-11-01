@@ -2,7 +2,7 @@
     "core": {
         "id": "d9e2ed71-6b83-5677-be88-c92916816906",
         "name": "mtb-template-cat5",
-        "version": "2.0.0.45678"
+        "version": "3.0.0.48118"
     },
     "opt": {
         "props": {
@@ -11,7 +11,8 @@
                     "defines": "cat5_defines",
                     "deps": "555xxxx_dependencies",
                     "files": [
-                        "filelist/cat5.txt"
+                        "filelist/cat5.txt",
+                        "filelist/cyw55500.txt"
                     ],
                     "files_init": "files_init/555xxxx.txt"
                 },
@@ -19,7 +20,8 @@
                     "defines": "cat5_defines",
                     "deps": "559xxxx_dependencies",
                     "files": [
-                        "filelist/cat5.txt"
+                        "filelist/cat5.txt",
+                        "filelist/cyw55900.txt"
                     ],
                     "files_init": "files_init/559xxxx.txt"
                 },
@@ -51,6 +53,7 @@
                     "deps/recipe-make-cat5.mtbx"
                 ],
                 "559xxxx_dependencies": [
+                    "deps/clib-support.mtbx",
                     "deps/core-lib.mtbx",
                     "deps/core-make.mtbx",
                     "deps/559xxxx/mtb-hal-cat5.mtbx",

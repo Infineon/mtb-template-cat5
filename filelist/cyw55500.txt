@@ -1,0 +1,2 @@
+files/templates/TOOLCHAIN_GCC_ARM/55500A1_direct_load_ram.ld:TOOLCHAIN_GCC_ARM/55500A1_direct_load_ram.ld
+files/templates/TOOLCHAIN_ARM/55500A1_direct_load_ram.sct:TOOLCHAIN_ARM/55500A1_direct_load_ram.sct
